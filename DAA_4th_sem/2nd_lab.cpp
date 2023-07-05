@@ -18,7 +18,6 @@ void DFS(int i,int j,vector<int> &mat){
         DFS(i+1,j-1,mat);        
     }
 }
-
 int main()
 {
     cout<<"\nEnter size of matrix: ";

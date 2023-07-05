@@ -10,7 +10,6 @@ void printArr(vector<int> arr)
         cout<<arr[i]<<" ";
     }cout<<endl;
 }
-
 void quickSort(vector<int> &arr,int start,int end){
     if(start>=end){
         return;
@@ -27,8 +26,6 @@ void quickSort(vector<int> &arr,int start,int end){
     quickSort(arr,start,x-1);
     quickSort(arr,x+1,end);
 }
-
-
 int main(){
     
     vector<int> arr;
